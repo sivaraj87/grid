@@ -1,0 +1,12 @@
+.grid-xs-12,.grid-sm-12,.grid-md-12,.grid-lg-12 { width: 100% !important; }
+.grid-xs-11,.grid-sm-11,.grid-md-11,.grid-lg-11 { width: 88%; }
+.grid-xs-10,.grid-sm-10,.grid-md-10,.grid-lg-10 { width: 85%; }
+.grid-xs-9,.grid-sm-9,.grid-md-9,.grid-lg-9 { width: 75%; }
+.grid-xs-8,.grid-sm-8,.grid-md-8,.grid-lg-8 { width: 66.66%; }
+.grid-xs-7,.grid-sm-7,.grid-md-7,.grid-lg-7 { width: 60%; }
+.grid-xs-6,.grid-sm-6,.grid-md-6,.grid-lg-6 { width: 50%; }
+.grid-xs-5,.grid-sm-5,.grid-md-5,.grid-lg-5 { width: 40%; }
+.grid-xs-4,.grid-sm-4,.grid-md-4,.grid-lg-4 { width: 33.33%; }
+.grid-xs-3,.grid-sm-3,.grid-md-3,.grid-lg-3 { width: 25%; }
+.grid-xs-2,.grid-sm-2,.grid-md-2,.grid-lg-2 { width: 15%; }
+.grid-xs-1,.grid-sm-1,.grid-md-1,.grid-lg-1 { width: 12%; }
