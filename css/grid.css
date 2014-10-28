@@ -26,7 +26,6 @@
 html, body { min-height: 100%; width: 100%; margin: 0 auto; padding: 0; font-size: 1em; position: relative; }
 code, blockquote, pre { padding: 1px 3px; white-space: pre-wrap; }
 [class^='grid-'] { float: left; box-sizing: border-box; padding: 1%; background: #FFF; }
-[class^='show-'] { display: none; }
 .pull-left { float: left !important; }
 .pull-right { float: right !important; }
 .clearfix { clear: both !important; }
@@ -49,17 +48,16 @@ code, blockquote, pre { padding: 1px 3px; white-space: pre-wrap; }
 .embed { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; }
 .embed iframe, .embed object, .embed embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 .list-unstyled { padding: 0; margin: 0; list-style-type: none; }
-[class^='container'] { width: 80%; margin: 0 auto; clear: both; }
-[class%='row'] { width: 100%; clear: both; margin: 0 auto; }
+.container { width: 80%; margin: 0 auto; clear: both; }
+.row { width: 100%; clear: both; margin: 0 auto; }
 .btn-block { width: 100%; padding: 5px; }
 .btn-link { background: none; border: none; }
 code { color: #900; }
 blockquote { color: #0A67A3;}
 pre { color: #393; }
-a, .btn-link { color: blue; }
 .fixed-left-middle { position: fixed; top: 33.33%; left: 1%; }
 .fixed-right-middle { position: fixed; top: 33.33%; right: 1%; }
-.nav-fixed-top { position: fixed; top: 0; width: 100%: }
-.nav-fixed-bottom { position: fixed; bottom: 0; width: 100%: }
-.nav-static-top { position: absolute; top: 0; width: 100%: }
+.nav-fixed-top { position: fixed; top: 0; width: 100%; }
+.nav-fixed-bottom { position: fixed; bottom: 0; width: 100%; }
+.nav-static-top { position: absolute; top: 0; width: 100%; }
 [class^='nav-'] ul li { display: inline; }
