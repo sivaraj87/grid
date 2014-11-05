@@ -17,17 +17,17 @@ grid uses [Normalize.CSS](http://git.io/normalize) as an alternative to CSS rese
 ##Sizes##
 **grid uses four size designators**
 
-* -lg* : 1200px or above (Large devices)
+* -lg : 1200px or above (Large devices)
 * -md: : 992 - 1199px (Medium devices [smaller monitors, etc])
 * -sm: : 768 - 991px (Small devices [tablets])
-* -xs* : 767px and below (Extra small devices [phones])
+* -xs : 767px and below (Extra small devices [phones])
 
 **width is based on segments in division of the 12-sqare layout**
 
-* col-*-12: full grid width
-* col-*-6: 1/2 grid width
-* col-*-4: 1/3 grid width
-* col*-3: 1/4 grid width
+* grjd-*-12: full grid width
+* grid-*-6: 1/2 grid width
+* grid-*-4: 1/3 grid width
+* grid*-3: 1/4 grid width
 * widths are built to accept values from 1 - 12
 
 ##Styling##
@@ -77,6 +77,6 @@ There are also positional and alignment classes included in grid.
 
 `btn-block` creates a button the full width of the containing element.
 
-`col-[size]-*` sets element width based on device width
+`grid-[size]-*` sets element width based on device width
 
 `(visible|hidden)-[size]` will make an element visible or hidden based on the size (xs,sm,md,lg) assigned.
