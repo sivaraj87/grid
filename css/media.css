@@ -1,6 +1,7 @@
 [class *='grid'] { visibility: hidden !important; }
 @media only all and (min-width: 1200px){
-    [class*='lg'],[class *='md'],[class *='sm'],[class *='xs'] { visibility: visible !important; }
+    [class*='-lg-'],[class *='-md-'],[class *='-sm-'],[class *='-xs-'],.visible-lg,.hidden-xs,.hidden-sm,.hidden-md { visibility: visible !important; }
+    .visible-md,.visible-sm,.visible-xs,.hidden-lg { display: none; }
     .grid-xs-12 { width: 100%; } 
     .grid-xs-11 { width: 92%; } 
     .grid-xs-10 { width: 85%; } 
@@ -55,8 +56,8 @@
 
 }
 @media only all and (min-width: 992px) and (max-width: 1199px){
-/*    [class *='grid-lg'] { display: none !important; }*/
-    [class *='md'],[class *='sm'],[class *='xs'] { visibility: visible !important; }
+    [class *='-md-'],[class *='-sm-'],[class *='-xs-'],.visible-md,.hidden-xs,.hidden-sm,.hidden-lg { visibility: visible !important; }
+    .visible-sm,.visible-lg,.visible-xs,.hidden-md { display: none !important; }
     .grid-xs-12 { width: 100%; } 
     .grid-xs-11 { width: 92%; } 
     .grid-xs-10 { width: 85%; } 
@@ -99,8 +100,8 @@
 
 }
 @media only all and (min-width: 768px) and (max-width: 991px){
-/*    [class *='lg'][class*='md'] { display: none; }*/
-    [class *='sm'],[class *='xs'] { visibility: visible !important; }
+    [class *='-sm-'],[class *='-xs-'],.visible-sm,.hidden-xs,.hidden-lg,.hidden-md { visibility: visible !important; }
+    .visible-lg,.visible-md,.visible-xs,.hidden-sm { display: none; }
     .grid-xs-12 { width: 100%; } 
     .grid-xs-11 { width: 92%; } 
     .grid-xs-10 { width: 85%; } 
@@ -128,8 +129,8 @@
     .grid-sm-1 { width: 8% !important; } 
 }
 @media only all and (max-width: 767px){
-/*    [class *='lg'],[class*='md'],[class*='sm'] { display: none; }*/
-    [class *='xs'] { visibility: visible !important; }
+    [class *='-xs-'],.visible-xs,.hidden-lg,.hidden-sm,.hidden-md { visibility: visible !important; }
+    .visible-md,.visible-sm,.visible-lg,.hidden-xs { display: none !important; }
     .grid-xs-12 { width: 100% !important; } 
     .grid-xs-11 { width: 92% !important; } 
     .grid-xs-10 { width: 85% !important; } 

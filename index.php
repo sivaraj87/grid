@@ -20,7 +20,18 @@
         <div class="grid-lg-7 grid-xs-6 text-center">7</div>
         <div class="grid-lg-6 grid-xs-6 text-center">6</div>
         <div class="grid-lg-6 text-center">6</div>
+        <div class="nav-fixed-bottom col-xs-6 pull-left">
+            <div class="hidden-xs">hidden-xs</div>
+            <div class="hidden-lg">hidden-lg</div>
+            <div class="hidden-sm">hidden-sm</div>
+            <div class="hidden-md">hidden-md</div>
+        </div>
+        <div class="nav-fixed-bottom col-xs-6 pull-right text-right">
+            <div class="visible-xs">visible-xs</div>
+            <div class="visible-lg">visible-lg</div>
+            <div class="visible-sm">visible-sm</div>
+            <div class="visible-md">visible-md</div>
+        </div>
         <div class="clearfix"></div>
-        <div class="nav-static-bottom">lkjoijpj;ij</div>
     </body>
 </html>
