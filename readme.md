@@ -1,18 +1,42 @@
 # grid #
-**Lightweight Responsive Design Framework**
+###Lightweight Responsive Design Framework###
+grid is 12-square grid framework, inteneded for responsive and/or grid-based design purposes.
 
-grid is 12-square grid framework, inteneded for responsive design or grid-based design purposes.
+##License##
+grid is licensed under the [MIT License](http://opensource.org/licenses/MIT)
+
 ##Getting Started##
 While it is recommended that you declare the viewport in the head of your file, it is **not required**. Simply declare the style in the head of your document and you are ready to go.
 
-Grid has been tested on HTML HTML 4.01, XHTML 1.0 & 1.1, and HTML5 width and without the viewport declared. Not issues have been seen so far.
+grid has been tested on HTML HTML 4.01, XHTML 1.0 & 1.1, and HTML5 width and without the viewport declared. No issues have been seen so far.
 
-#Styling#
-Grid has no colors, aside from the following:
+##Included File##
+grid uses [Normalize.CSS](http://git.io/normalize) as an alternative to CSS resets. While include, it is **not** required.
+
+##Sizes##
+**grid uses four size designators**
+
+* -lg* : 1200px or above (Large devices)
+* -md: : 992 - 1199px (Medium devices [smaller monitors, etc])
+* -sm: : 768 - 991px (Small devices [tablets])
+* -xs* : 767px and below (Extra small devices [phones])
+
+**width is based on segments in division of the 12-sqare layout**
+
+* col-*-12: full grid width
+* col-*-6: 1/2 grid width
+* col-*-4: 1/3 grid width
+* col*-3: 1/4 grid width
+* widths are built to accept values from 1 - 12
+
+##Styling##
+grid has no colors, aside from the following:
+
 * `code` [color: #990000]
 * `blockquote` [color: #0A67A3]
 * `pre` [color: #339933]
 *  and all grid squares: [background: #FFFFFF]
+
 All of which can be overwritten in your own CSS file.
 
 ##Classes##
@@ -51,3 +75,7 @@ There are also positional and alignment classes included in grid.
 `btn-link` makes a button look like a link, no border, no background, just the text of the button.
 
 `btn-block` creates a button the full width of the containing element.
+
+`col-[size]-*` sets element width based on device width
+
+`(visible|hidden)-[size]` will make an element visible or hidden based on the size (xs,sm,md,lg) assigned.
