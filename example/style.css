@@ -1,2 +1,3 @@
-body { background: url(http://griddle.it/960-12-30?num=false); }
-[class^='grid-'] { border: 1px solid #999; background: #f2f2f2; }
+body { background: url(http://griddle.it/960-12-30?num=false); padding: 6% 0 !important; }
+[class*='grid-'] { border: 1px solid #999 !important; padding: 1% !important; }
+.container,[class*='nav-'] { border: 1px solid #999; background: #f2f2f2; }
