@@ -1,6 +1,7 @@
 # grid #
 ###Lightweight Responsive Design Framework###
 grid is 12-square grid framework, inteneded for responsive and/or grid-based design purposes.
+
 To see it in action, checkout out [the demo](http://jstephens0.github.io/grid/)
 ##License##
 grid is licensed under the [MIT License](http://opensource.org/licenses/MIT)
